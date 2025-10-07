@@ -1,0 +1,26 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: all;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: all;
+    src: url(../elements/fonts/Quicksand.otf);
+}
+
+body{
+
+    background-color: black;
+
+}
+
+
+header{
+
+    
+
+}
