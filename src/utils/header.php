@@ -1,6 +1,7 @@
 <?php
 
-include_once("../url.php");
+require_once("url.php");
+
 
 ?>
 
@@ -19,7 +20,7 @@ include_once("../url.php");
 <header>
 
 
-<a href="index.php">Limpoo</a>
+<a href="<?=$url?>index.php">Limpoo</a>
 
 <div class="nav_links">
 
