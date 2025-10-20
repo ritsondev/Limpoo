@@ -50,22 +50,26 @@ require_once("url.php");
 
 <div>
 <label for="first_name"></label>
-<input type="text" class="first_name" autofocus tabeindex="1" required placeholder="eg.Ritson">
+<input type="text" class="first_name" autofocus tabeindex="1" required placeholder="eg.Ritson" name="first_name">
 </div>
 
 <div>
 <label for="last_name"></label>
-<input type="text" class="last_name" autofocus tabeindex="2" required placeholder="eg.Dev">
+<input type="text" class="last_name" autofocus tabeindex="2" required placeholder="eg.Dev" name="last_name">
 </div>
 
 </div>
 
 <label for="email">Email</label>
-<input type="email" class="email" autofocus tabeindex="3" required placeholder="eg.Ritsondev@gmail.com">
+<input type="email" class="email" autofocus tabeindex="3" required placeholder="eg.Ritsondev@gmail.com" name="email">
 
 <label for="password">Password</label>
-<input type="password" class="password" autofocus tabeindex="4" required placeholder="Enter your password">
+<input type="password" class="password" autofocus tabeindex="4" required placeholder="Enter your password" name="password">
 
+<label for="confirm_password">Confirm Password</label>
+<input type="password" class="confirm_password" autofocus tabeindex="5" required placeholder="Confirm your password" name="confirm_password">
+
+<input type="hidden" name="type" value="register">
 <button class="sign_up" id="sign_up">
     Sign Up
 </button>
