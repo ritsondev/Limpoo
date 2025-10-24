@@ -25,6 +25,7 @@ __construct($id,$name,$first_Name,$last_name,$email,$password){
 interface uni{
 
     public function buildUser($data);
+    public function verifyEmail($data);
     public function create(User $user);
 
 

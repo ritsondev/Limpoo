@@ -7,6 +7,20 @@
 
 }
 
+:root{
+
+
+    --backgrount:#101010;
+    --background2: #07072e;
+    --white1:#F5F5F5;
+    --color3:#4450F2;
+    --gradiente:linear-gradient(90deg, rgba(7, 7, 46, 1) 0%, rgba(3, 22, 145, 1) 35%, rgba(88, 3, 128, 1) 100%);
+    
+
+
+
+}
+
 @font-face {
     font-family: all;
     src: url(../elements/fonts/Quicksand.otf);
